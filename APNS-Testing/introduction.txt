@@ -1,0 +1,25 @@
+推送测试：
+
+developer网站添加一个用于推送的app id
+添加apns的development和distribution证书 下载并安装
+添加apns的development和distribution描述文件 下载并安装
+
+connect网站添加一个app 以刚才的app id 为bundle id
+
+新建工程使用刚才的app id 作为undle id
+在target的capabilities分页内把push notifications开关打开
+
+从钥匙串中导出推送证书的cert 和 key
+在终端内cd到cert 和 key所在目录 进行如下命令：
+openssl pkcs12 -clcerts -nokeys -out cert.pem -in cert.p12
+openssl pkcs12 -nocerts -out key.pem -in key.p12
+openssl rsa -in key.pem -out key.unencrypted.pem
+cat cert.pem key.unencrypted.pem > ck.pem
+校验：
+openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert cert.pem -key key.pem
+
+把得到的cert.pem ck.pem拷贝到推送工具的pem目录下
+
+运行我们的工程 把得到的token拷贝到推送工具的run.py文件里
+然后把app退到后台（app在前台能收到推送但ios系统不展示）
+在终端 cd到run.py所在目录 执行：python run.py
