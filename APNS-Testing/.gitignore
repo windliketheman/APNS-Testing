@@ -1,0 +1,6 @@
+
+#ignore list
+APNS-Testing.xcodeproj/xcuserdata/
+APNS-Testing.xcodeproj/project.xcworkspace/xcuserdata/
+APNS-Testing.xcworkspace/xcuserdata
+Pods/
