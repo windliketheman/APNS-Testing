@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PureLayout.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,11 @@
     if (!_textView)
     {
         _textView = [UITextView new];
+        _textView.backgroundColor =[UIColor lightGrayColor];
+        _textView.textAlignment = NSTextAlignmentCenter;
+        _textView.editable = NO;
+        _textView.layer.borderColor = [UIColor darkGrayColor].CGColor;
+        _textView.layer.borderWidth = 1.0;
     }
     return _textView;
 }
@@ -28,13 +34,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self setupSubviews];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Inner Methods
+- (void)setupSubviews
+{
+    [self.view addSubview:self.textView];
+    
+    [self.textView autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:5];
+    [self.textView autoPinEdgeToSuperviewEdge:ALEdgeRight withInset:5];
+    [self.textView autoMatchDimension:ALDimensionHeight toDimension:ALDimensionWidth ofView:self.textView];
+    [self.textView autoAlignAxisToSuperviewAxis:ALAxisHorizontal];
+    [self.textView autoAlignAxisToSuperviewAxis:ALAxisVertical];
 }
 
 @end

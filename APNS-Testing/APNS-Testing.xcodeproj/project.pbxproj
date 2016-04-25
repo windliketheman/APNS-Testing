@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4784ADE7F432F885980B79C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8A7B92A8DF049D2072C403 /* libPods.a */; };
 		E799024A1CC633090026D55D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E79902491CC633090026D55D /* main.m */; };
 		E799024D1CC633090026D55D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E799024C1CC633090026D55D /* AppDelegate.m */; };
 		E79902501CC633090026D55D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E799024F1CC633090026D55D /* ViewController.m */; };
@@ -17,6 +18,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		699E1E92D944C57D7FE9F4FB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		828C13E128DA520980BD961D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AC8A7B92A8DF049D2072C403 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74FBAB61CCDC2EA00566DBD /* cert key 密码123.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cert key 密码123.txt"; sourceTree = "<group>"; };
+		E74FBAB71CCDC2EA00566DBD /* cert.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cert.p12; sourceTree = "<group>"; };
+		E74FBAB81CCDC2EA00566DBD /* key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.p12; sourceTree = "<group>"; };
+		E74FBAB91CCDC2EA00566DBD /* introduction.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = introduction.txt; sourceTree = "<group>"; };
+		E74FBABA1CCDC2EA00566DBD /* ios 推送那些事.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ios 推送那些事.pptx"; sourceTree = "<group>"; };
+		E74FBABC1CCDC2EA00566DBD /* apns.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = apns.py; sourceTree = "<group>"; };
+		E74FBABD1CCDC2EA00566DBD /* apns.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = apns.pyc; sourceTree = "<group>"; };
+		E74FBABF1CCDC2EA00566DBD /* cert.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = cert.pem; sourceTree = "<group>"; };
+		E74FBAC01CCDC2EA00566DBD /* ck.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = ck.pem; sourceTree = "<group>"; };
+		E74FBAC11CCDC2EA00566DBD /* pushtool.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pushtool.py; sourceTree = "<group>"; };
+		E74FBAC21CCDC2EA00566DBD /* pushtool.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = pushtool.pyc; sourceTree = "<group>"; };
+		E74FBAC31CCDC2EA00566DBD /* run.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = run.py; sourceTree = "<group>"; };
 		E79902451CC633090026D55D /* APNS-Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APNS-Testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79902491CC633090026D55D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E799024B1CC633090026D55D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,16 +45,6 @@
 		E79902591CC633090026D55D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E799025F1CC633DA0026D55D /* AppDelegate+APNS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+APNS.h"; sourceTree = "<group>"; };
 		E79902601CC633DA0026D55D /* AppDelegate+APNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+APNS.m"; sourceTree = "<group>"; };
-		E7A7F5161CC75AF800340CA4 /* cert.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cert.p12; sourceTree = "<group>"; };
-		E7A7F5171CC75AF800340CA4 /* key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.p12; sourceTree = "<group>"; };
-		E7A7F5191CC75AF800340CA4 /* apns.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = apns.py; sourceTree = "<group>"; };
-		E7A7F51A1CC75AF800340CA4 /* apns.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = apns.pyc; sourceTree = "<group>"; };
-		E7A7F51C1CC75AF800340CA4 /* cert.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = cert.pem; sourceTree = "<group>"; };
-		E7A7F51D1CC75AF800340CA4 /* ck.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = ck.pem; sourceTree = "<group>"; };
-		E7A7F51E1CC75AF800340CA4 /* pushtool.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pushtool.py; sourceTree = "<group>"; };
-		E7A7F51F1CC75AF800340CA4 /* pushtool.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = pushtool.pyc; sourceTree = "<group>"; };
-		E7A7F5201CC75AF800340CA4 /* run.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = run.py; sourceTree = "<group>"; };
-		E7A7F5211CC75F0400340CA4 /* introduction.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = introduction.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,20 +52,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4784ADE7F432F885980B79C7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07C39258E09C18E6F19FD987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC8A7B92A8DF049D2072C403 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53114E2908E9519B67B6BDCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				828C13E128DA520980BD961D /* Pods.debug.xcconfig */,
+				699E1E92D944C57D7FE9F4FB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E74FBAB41CCDC2EA00566DBD /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				E74FBAB91CCDC2EA00566DBD /* introduction.txt */,
+				E74FBABA1CCDC2EA00566DBD /* ios 推送那些事.pptx */,
+				E74FBAB51CCDC2EA00566DBD /* Certificates */,
+				E74FBABB1CCDC2EA00566DBD /* Push-Tool */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		E74FBAB51CCDC2EA00566DBD /* Certificates */ = {
+			isa = PBXGroup;
+			children = (
+				E74FBAB61CCDC2EA00566DBD /* cert key 密码123.txt */,
+				E74FBAB71CCDC2EA00566DBD /* cert.p12 */,
+				E74FBAB81CCDC2EA00566DBD /* key.p12 */,
+			);
+			path = Certificates;
+			sourceTree = "<group>";
+		};
+		E74FBABB1CCDC2EA00566DBD /* Push-Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E74FBABC1CCDC2EA00566DBD /* apns.py */,
+				E74FBABD1CCDC2EA00566DBD /* apns.pyc */,
+				E74FBABE1CCDC2EA00566DBD /* pem */,
+				E74FBAC11CCDC2EA00566DBD /* pushtool.py */,
+				E74FBAC21CCDC2EA00566DBD /* pushtool.pyc */,
+				E74FBAC31CCDC2EA00566DBD /* run.py */,
+			);
+			path = "Push-Tool";
+			sourceTree = "<group>";
+		};
+		E74FBABE1CCDC2EA00566DBD /* pem */ = {
+			isa = PBXGroup;
+			children = (
+				E74FBABF1CCDC2EA00566DBD /* cert.pem */,
+				E74FBAC01CCDC2EA00566DBD /* ck.pem */,
+			);
+			path = pem;
+			sourceTree = "<group>";
+		};
 		E799023C1CC633090026D55D = {
 			isa = PBXGroup;
 			children = (
-				E7A7F5211CC75F0400340CA4 /* introduction.txt */,
 				E79902471CC633090026D55D /* APNS-Testing */,
-				E7A7F5151CC75AF800340CA4 /* Certificates */,
-				E7A7F5181CC75AF800340CA4 /* Push-Tool */,
 				E79902461CC633090026D55D /* Products */,
+				53114E2908E9519B67B6BDCB /* Pods */,
+				07C39258E09C18E6F19FD987 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +150,7 @@
 				E79902541CC633090026D55D /* Assets.xcassets */,
 				E79902561CC633090026D55D /* LaunchScreen.storyboard */,
 				E79902591CC633090026D55D /* Info.plist */,
+				E74FBAB41CCDC2EA00566DBD /* Testing */,
 				E79902481CC633090026D55D /* Supporting Files */,
 			);
 			path = "APNS-Testing";
@@ -97,37 +164,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E7A7F5151CC75AF800340CA4 /* Certificates */ = {
-			isa = PBXGroup;
-			children = (
-				E7A7F5161CC75AF800340CA4 /* cert.p12 */,
-				E7A7F5171CC75AF800340CA4 /* key.p12 */,
-			);
-			path = Certificates;
-			sourceTree = "<group>";
-		};
-		E7A7F5181CC75AF800340CA4 /* Push-Tool */ = {
-			isa = PBXGroup;
-			children = (
-				E7A7F5191CC75AF800340CA4 /* apns.py */,
-				E7A7F51A1CC75AF800340CA4 /* apns.pyc */,
-				E7A7F51B1CC75AF800340CA4 /* pem */,
-				E7A7F51E1CC75AF800340CA4 /* pushtool.py */,
-				E7A7F51F1CC75AF800340CA4 /* pushtool.pyc */,
-				E7A7F5201CC75AF800340CA4 /* run.py */,
-			);
-			path = "Push-Tool";
-			sourceTree = "<group>";
-		};
-		E7A7F51B1CC75AF800340CA4 /* pem */ = {
-			isa = PBXGroup;
-			children = (
-				E7A7F51C1CC75AF800340CA4 /* cert.pem */,
-				E7A7F51D1CC75AF800340CA4 /* ck.pem */,
-			);
-			path = pem;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E799025C1CC633090026D55D /* Build configuration list for PBXNativeTarget "APNS-Testing" */;
 			buildPhases = (
+				CA2C738128FFC28CCA180DA8 /* Check Pods Manifest.lock */,
 				E79902411CC633090026D55D /* Sources */,
 				E79902421CC633090026D55D /* Frameworks */,
 				E79902431CC633090026D55D /* Resources */,
+				E440A68DC98F62A2DF7040FD /* Embed Pods Frameworks */,
+				A762E74539AAC899C780E335 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +237,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A762E74539AAC899C780E335 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA2C738128FFC28CCA180DA8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E440A68DC98F62A2DF7040FD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E79902411CC633090026D55D /* Sources */ = {
@@ -319,6 +406,7 @@
 		};
 		E799025D1CC633090026D55D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828C13E128DA520980BD961D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -335,6 +423,7 @@
 		};
 		E799025E1CC633090026D55D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699E1E92D944C57D7FE9F4FB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
