@@ -12,5 +12,8 @@
 
 @property (nonatomic, strong) UITextView *textView;
 
+@property (nonatomic, strong) NSString *token;
+@property (nonatomic, strong) NSString *pushInfo;
+
 @end
 

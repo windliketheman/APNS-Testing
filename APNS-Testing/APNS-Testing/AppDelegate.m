@@ -64,7 +64,7 @@
     NSLog(@"APNS -> DeviceToken: %@", token);
     
     // 将deviceToken发给推送服务器
-    self.rootViewController.textView.text = token;
+    self.rootViewController.token = token;
 }
 
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
@@ -74,7 +74,9 @@
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
 {
+    NSLog(@"Receive Remote Notification: %@", [userInfo description]);
     
+    self.rootViewController.pushInfo = [userInfo description];
 }
 
 - (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
